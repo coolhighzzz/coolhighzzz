@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @coolhighzzz
+- 👀 I’m interested in coding html,css,js
+- 🌱 I’m currently learning nodejs and java
+- 💞️ I’m looking to collaborate on pterodactyl client areas
+- 📫 coolhighzz015@gmail.com or discord : "coolhighzz"
