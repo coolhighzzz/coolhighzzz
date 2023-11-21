@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coolhighzz - Portfolio</title>
+        <link rel="icon" href="https://media.discordapp.net/attachments/1162058786928861215/1176120888916189214/coolhighzz.gif?ex=656db6ef&is=655b41ef&hm=35620fc8ccca691314def63b61e258f78615b4d63002252b6ebd86c456069c70&=">
+        
+    <meta property="og:title" content="Coolhighzz">
+    <meta property="og:description" content="Web designer and Developer | Owner of HelioCloud">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/1162058786928861215/1176120888916189214/coolhighzz.gif?ex=656db6ef&is=655b41ef&hm=35620fc8ccca691314def63b61e258f78615b4d63002252b6ebd86c456069c70&=&width=230&height=230">
+    <meta property="og:url" content="Your website URL">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coolhighzz">
+    <meta name="twitter:description" content="Web designer and Developer | Owner of HelioCloud">
+    <meta name="twitter:image" content="https://media.discordapp.net/attachments/1162058786928861215/1176120888916189214/coolhighzz.gif?ex=656db6ef&is=655b41ef&hm=35620fc8ccca691314def63b61e258f78615b4d63002252b6ebd86c456069c70&=&width=230&height=230">
+
+        
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        header {
+            background-image: url('https://img.freepik.com/premium-vector/modern-banner-cool-landing-page-spectrum-paper-minimal-design-color-geometric-invitation-violet-plastic-poster-flat-dynamic-layout-abstract-website-violet-modern-banner_121461-4355.jpg');
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 0 10px white;
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 10px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typeAnimation 2s steps(20, end) forwards;
+        }
+
+        @keyframes typeAnimation {
+            from {
+                width: 0;
+            }
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .project {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 1s forwards, moveUp 1s 0.5s forwards;
+        }
+
+        @keyframes moveUp {
+            from {
+                transform: translateY(20px);
+            }
+        }
+
+        h2 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #61dafb;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s 1s forwards;
+        }
+
+        nav a {
+            margin: 0 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://media.discordapp.net/attachments/1162058786928861215/1176120888916189214/coolhighzz.gif?ex=656db6ef&is=655b41ef&hm=35620fc8ccca691314def63b61e258f78615b4d63002252b6ebd86c456069c70&=&width=230&height=230" alt="Coolhighzz Profile Picture">
+        <h1>Coolhighzz</h1>
+    </header>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="https://discord.gg/bHS4SM6jVv" target="_blank">Discord</a>
+    </nav>
+
+    <main>
+        <section id="projects" class="project">
+            <h2><a href="https://vexlinity.coolhighzz.nl" target="_blank">Vexlinity</a></h2>
+            <p>An list of Minecraft hostings that are legit and don't abuse.</p>
+        </section>
+
+        <section class="project">
+            <h2><a href="https://heliocloud.nl" target="_blank">HelioCloud</a></h2>
+            <p>A paid Minecraft Hosting service.</p>
+        </section>
+    </main>
+</body>
+
+</html>
